@@ -1,0 +1,6 @@
+service_acc_key.json
+.DS_Store
+.terraform/
+terraform.*
+.terraform.*
+microservices-demo/
