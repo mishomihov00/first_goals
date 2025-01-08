@@ -26,7 +26,7 @@ variable "credentials_file_path" {
 variable "initial_node_count" {
   description = "Initial number of nodes in the cluster"
   type        = number
-  default     = 2
+  default     = 1
 }
 
 variable "node_disk_size_gb" {
