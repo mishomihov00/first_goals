@@ -1,3 +1,8 @@
+resource "google_project_service" "cloudtrace" {
+  project = var.project_id
+  service = "cloudtrace.googleapis.com"
+}
+
 resource "google_container_cluster" "primary" {
   name     = "microservices-demo-cluster"
   location = var.zone

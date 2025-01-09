@@ -19,5 +19,5 @@ resource "helm_release" "online_boutique" {
   chart      = "${path.module}/microservices-demo/helm-chart"
   version    = "0.10.2"
   namespace  = "online-boutique"
-
+  force_update = true
 }
